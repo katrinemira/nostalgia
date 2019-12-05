@@ -186,3 +186,11 @@ li {
   #tableOneT, #tableTwoT, #tableThreeT, #tableFourT { display: none; }
   .column {width: 100%}
 	#tableOne, tableTwo, tableThree, tableFour {max-width: 100%;}}
+@media screen and (max-width: 960px){
+  #navbar {display: block;
+            width: 100%;
+            font-size: 30%;
+ }
+  #pipe {display: none;}
+
+}
