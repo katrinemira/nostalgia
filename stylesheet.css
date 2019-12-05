@@ -1,6 +1,4 @@
-@media screen and (max-width: 960px) {    
-  #tableOneT, #tableTwoT, #tableThreeT, #tableFourT { display: none; }
-  .column {width: 100%}}
+
 
 body {
 	margin: 0%;
@@ -183,3 +181,8 @@ li {
   from {opacity: .8}
   to {opacity: 1}
 }
+
+@media screen and (max-width: 960px) {    
+  #tableOneT, #tableTwoT, #tableThreeT, #tableFourT { display: none; }
+  .column {width: 100%}
+	#tableOne, tableTwo, tableThree, tableFour {max-width: 100%;}}
