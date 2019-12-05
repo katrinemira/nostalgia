@@ -1,0 +1,185 @@
+@media screen and (max-width: 960px) {    
+  #tableOneT, #tableTwoT, #tableThreeT, #tableFourT { display: none; }
+  .column {width: 100%}}
+
+body {
+	margin: 0%;
+  font-family: sans-serif;
+
+}
+
+* {box-sizing:border-box;
+  scroll-behavior: smooth;}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #add7ff;
+}
+
+#header {
+	margin: auto;
+	width: 100%;
+	margin-bottom: -2px;
+}
+
+#navbar {
+	list-style: none;
+	font-family: sans-serif;
+	text-align:center;
+	letter-spacing: 1.5px;
+	background-color: #86a1b3;
+	margin: 0%;
+	padding: 1.5em;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+
+}
+
+li {
+	display: inline;
+	padding: 40px;
+	font-size: 120%;
+}
+
+#tableOne {
+	background-color: #506477;
+  max-width: 50%;
+	float: left;
+  padding: 4em;
+  height: 25em;
+}
+#tableOneT {
+  background-color: #506477;
+  max-width: 50%;
+  float: left;
+  padding: 4em;
+  height: 25em;
+}
+
+#tableTwo {
+	background-color: #506477;
+	overflow: hidden;
+  padding: 4em;
+  height: 25em;
+
+}
+#tableTwoT {
+  background-color: #506477;
+  overflow: hidden;
+  padding: 4em;
+  height: 25em;
+
+}
+
+#tableThree {
+  background-color: #add7ff;
+  max-width: 50%;
+  float: left;
+  padding: 4em;
+    height: 25em;
+}
+#tableThreeT {
+  background-color: #add7ff;
+  max-width: 50%;
+  float: left;
+  padding: 4em;
+    height: 25em;
+}
+
+#tableFour {
+  background-color: #add7ff;
+  overflow: hidden;
+  padding: 4em;
+  height: 25em;
+}
+#tableFourT {
+  background-color: #add7ff;
+  overflow: hidden;
+  padding: 4em;
+  height: 25em;
+}
+
+.sectionPicture {
+	max-width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.sectionPicture2 {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sectionPicture3 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .8}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .8}
+  to {opacity: 1}
+}
